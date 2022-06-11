@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I have developed this web based Products listing application using Ruby on Rails with SQLite DB on MacOS operating system.
 
-Things you may want to cover:
+I have used Rails version 6.1.6 and Ruby 2.7.0 to develope this application.
 
-* Ruby version
+Note: 
+To run this application, you need to install Ruby, node js and yarn installed on your machine
+Ruby can installed using RVM.
+This application code is on git@github.com:upland-india/vieenay_siingh_takehometest.git with master branch.
 
-* System dependencies
 
-* Configuration
+Steps to run Products list application
 
-* Database creation
+* Clone this application from git@github.com:upland-india/vieenay_siingh_takehometest.git
 
-* Database initialization
+* To go master branch 
 
-* How to run the test suite
+* bundle install #install all dependencies
 
-* Services (job queues, cache servers, search engines, etc.)
+* rake db:migrate # to create db and add table
 
-* Deployment instructions
+* rake db:seed  # add basic data to product table
 
-* ...
+* bundle exec rake webpacker:install  # install webpacker
+
+* rails s  #run rails app on your local machine
