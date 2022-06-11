@@ -1,0 +1,12 @@
+<div class="product-new">
+   <h2>Upload Products</h2>
+   <div class="product-form">
+      <%= form_for @product, url: products_path do |f| %>
+         <div class="form-group">
+            <%= f.label :file, "Upload CSV File" %>
+            <%= f.file_field :file, class: 'form-control-file', required: true %>
+         </div>
+         <div class="actions"><%= f.submit %></div>
+      <% end %>
+   </div>
+</div>
