@@ -10,7 +10,6 @@
     As a user I'd like to filter the products by their category #3 
      
 
-
 Note: 
 To run this application, you need to install Ruby, node js and yarn installed on your machine
 Ruby can installed using RVM.
