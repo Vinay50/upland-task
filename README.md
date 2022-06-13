@@ -31,3 +31,5 @@ Steps to run Products list application
 * bundle exec rake webpacker:install  # install webpacker
 
 * rails s  #run rails app on your local machine
+
+* to views list of products,  visit http://localhost:3000
